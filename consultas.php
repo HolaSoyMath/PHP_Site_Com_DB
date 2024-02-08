@@ -30,6 +30,7 @@ $registros = mysqli_num_rows($consulta);
 
                 <form method="get" action="">
                     Filtrar por profissão: <input type="text" name="filtro" class="campo" required autofocus>
+                    <input type="text" name="nome_do_filtro" class="campo" value='aqui aparece'>
                     <input type="submit" value="Pesquisar" class="btn">
                 </form>
 
